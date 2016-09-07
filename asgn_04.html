@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 03</title>
+<style>
+	span {
+		color: green;
+	}
+</style>
+<script>
+
+	function outer(name) {
+		var n = name;
+		function inner() {
+			alert("Name from inner function: " + n);
+		}
+		inner();
+	}
+	outer("Garima Agarwal")
+</script>
+</head>
+<body>
+</body>
+</html>
